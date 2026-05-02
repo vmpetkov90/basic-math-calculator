@@ -11,19 +11,14 @@ A clean and functional calculator inspired by classic Casio designs. Supports ba
 
 ## 🔗 Live Demo
 
-👉 **View the live version here:**  
-https://your-username.github.io/your-repo-name/
-
-*(Replace with your actual GitHub Pages link.)*
+👉 **View the live version here:**
+</br> https://vmpetkov90.github.io/basic-math-calculator/
 
 ---
 
 ## 📸 Screenshots
 
-### 🖥️ Calculator UI
-![Calculator Screenshot](https://via.placeholder.com/1000x600?text=Calculator+Screenshot)
-
-*(Replace the placeholder with your real screenshot.)*
+<img width="100%" alt="Screenshot 2026-05-02 183040" src="https://github.com/user-attachments/assets/a90689c7-4d01-4160-ac6c-b97eac93fcb0" />
 
 ---
 
@@ -44,10 +39,9 @@ https://your-username.github.io/your-repo-name/
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – structure  
-- **CSS3** – layout, grid, styling, responsive design  
-- **JavaScript (ES6)** – calculator logic, state handling  
-- **Google Fonts / System Fonts**
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
 
 ---
 
