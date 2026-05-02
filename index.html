@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <main id="container">
+
+        <header>
+            <h1>Casio</h1>
+        </header>
+
+        <section>
+
+            <!-- Display -->
+            <input 
+                type="text" 
+                id="result-display" 
+                disabled 
+                aria-label="Calculator display"
+            >
+
+            <!-- Keypad -->
+            <div class="keypad">
+
+                <!-- Row 1 -->
+                <button onclick="typeDigit(7)">7</button>
+                <button onclick="typeDigit(8)">8</button>
+                <button onclick="typeDigit(9)">9</button>
+                <button id="delete" onclick="deleteDigit()">Del</button>
+
+                <!-- Row 2 -->
+                <button onclick="typeDigit(4)">4</button>
+                <button onclick="typeDigit(5)">5</button>
+                <button onclick="typeDigit(6)">6</button>
+                <button class="operator" onclick="selectOperator('+')">+</button>
+
+                <!-- Row 3 -->
+                <button onclick="typeDigit(1)">1</button>
+                <button onclick="typeDigit(2)">2</button>
+                <button onclick="typeDigit(3)">3</button>
+                <button class="operator" onclick="selectOperator('-')">−</button>
+
+                <!-- Row 4 -->
+                <button onclick="typeDigit('.')">.</button>
+                <button onclick="typeDigit(0)">0</button>
+                <button class="operator" onclick="selectOperator('/')">÷</button>
+                <button class="operator" onclick="selectOperator('*')">×</button>
+
+                <!-- Row 5 -->
+                <button id="reset" onclick="reset()">Reset</button>
+                <button id="equals" onclick="calculate()">=</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
